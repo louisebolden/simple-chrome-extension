@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Simple Chrome Extension",
+  "description": "The simplest Chrome extension using just the activeTab permission. Get data from the active tab and show it to the user.",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": "default_icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
